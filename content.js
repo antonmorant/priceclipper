@@ -28,6 +28,7 @@ function addClickListeners() {
   for (var i = 0; i < elements.length; i++) {
     elements[i].addEventListener('click', function(event) {
       copyToClipboard(event.target.innerHTML);
+      event.preventDefault();
       event.stopPropagation();
     });
   }
