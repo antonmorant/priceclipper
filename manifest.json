@@ -9,7 +9,10 @@
       "css": ["content-style.css"]
     }
   ],
-  "options_page": "options.html",
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  },
   "icons": {
     "128": "images/price128.png"
   },
