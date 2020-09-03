@@ -23,7 +23,7 @@ function injectTargetSpans() {
 
 function addClickListeners() {
   var elements = document.getElementsByClassName("priceclipper_price");
-  console.log("Found " + elements.length + " items.");
+  console.log("[PriceClipper] Found " + elements.length + " items.");
 
   for (var i = 0; i < elements.length; i++) {
     elements[i].addEventListener('click', function(event) {
