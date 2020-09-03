@@ -15,7 +15,7 @@ function injectTargetSpans() {
       console.log("[PriceClipper] Found match: " + priceText);
       element.innerHTML = element.innerHTML.replace(
         priceText,
-        "<a class=\"priceclipper_price\">" + priceText + "</a>"
+        "<span class=\"priceclipper_price\">" + priceText + "</span>"
       );
     }
   }
